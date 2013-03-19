@@ -1,0 +1,37 @@
+[INTRO]
+
+   You walk across the room to the east.
+   
+   [PAUSE]
+   
+   Here you find a stairway leading up to a door, and another
+ leading down into a dark tunnel.
+ 
+ Exits are west, up and down.
+
+[END_INTRO]
+
+[MENU]
+[END_MENU]
+
+[COMMAND]
+<GoDown,WalkDownStairs,HeadDown,Basement,GoToTheBasement>
+<GoUp,OpenDoor,OpenTheDoor,HeadUp,East>
+<GoWest,WalkWest,HeadWest,ExitWest,West>
+<HELP, WHATDOIDO>
+<EXIT, CLOSE, QUIT>
+[END_CMD]
+
+[RESOLVE]
+<GOTO>
+<GOTO>
+<GOTO>
+<HELP>
+<EXIT>
+[END_RES]
+
+[ROOMS]
+Game
+roof
+dungeon1
+[END_ROOMS]

@@ -1,0 +1,38 @@
+[INTRO]
+	
+   You travel to the north.
+
+[PAUSE]
+   Unfortunately the north exit was a window, and you found
+ out painfully quickly that you were at the top of a high tower.
+ 
+      YOU ARE DEAD
+	  
+[END_INTRO]
+
+[MENU]
+<OPTION>
+Play again
+<END_OPT>
+<OPTION>
+Exit
+<END_OPT>
+[END_MENU]
+
+[COMMAND]
+<>
+<>
+<HELP, WHATDOIDO>
+<EXIT, CLOSE, QUIT>
+[END_CMD]
+
+[RESOLVE]
+<GOTO>
+<EXIT>
+<HELP>
+<EXIT>
+[END_RES]
+
+[ROOMS]
+Game
+[END_ROOMS]

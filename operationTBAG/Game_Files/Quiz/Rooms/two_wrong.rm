@@ -1,0 +1,52 @@
+[INTRO]
+
+   I'm sorry,
+      The correct answer was 1956.
+
+[PAUSE]
+
+   How much wood could a woodchuck chuck, 
+     if a woodchuck could chuck wood?
+
+[END_INTRO]
+
+[MENU]
+<OPTION>
+All the wood
+<END_OPT>
+<OPTION>
+Most of the wood
+<END_OPT>
+<OPTION>
+None of the wood
+<END_OPT>
+<OPTION>
+Barely any of the wood
+<END_OPT>
+[END_MENU]
+
+[COMMAND]
+<>
+<>
+<>
+<>
+<HELP,HINT,CHEAT,TIP>
+<EXIT, CLOSE, QUIT>
+[END_CMD]
+
+[RESOLVE]
+<GOTO>
+<GOTO>
+<GOTO>
+<GOTO>
+<GOTO>
+<EXIT>
+[END_RES]
+
+[ROOMS]
+two_right
+two_wrong
+two_wrong
+two_wrong
+two_hint
+[END_ROOMS]

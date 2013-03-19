@@ -1,0 +1,33 @@
+[INTRO]
+   You climb out onto the roof and see endless sparkling
+ stars above you. Suddenly you don't care so much where
+ you are.  You are happy right here with Cthulhu your 
+ snuggly god of chaos and maddness.
+ 
+      YOU...survived?
+	  
+[END_INTRO]
+
+[MENU]
+<OPTION>
+Play again
+<END_OPT>
+<OPTION>
+Exit
+<END_OPT>
+[END_MENU]
+
+[COMMAND]
+<HELP, WHATDOIDO>
+<EXIT, CLOSE, QUIT>
+[END_CMD]
+
+[RESOLVE]
+<GOTO>
+<EXIT>
+<HELP>
+[END_RES]
+
+[ROOMS]
+Game
+[END_ROOMS]

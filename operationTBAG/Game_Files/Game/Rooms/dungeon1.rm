@@ -1,0 +1,36 @@
+[INTRO]
+   You cautiously travel downwards into the dark depths
+ of the tower.  The stairs seem to go on forever and it
+ is getting cold.
+ 
+ What do you do?
+[END_INTRO]
+
+[MENU]
+<OPTION>
+Continue deeper into the depths.
+<END_OPT>
+<OPTION>
+Turn around in fear.
+<END_OPT>
+[END_MENU]
+
+[COMMAND]
+<GoEast,GoBack,TurnAround,Leave,WalkAway>
+<HELP, WHATDOIDO>
+<EXIT, CLOSE, QUIT>
+[END_CMD]
+
+[RESOLVE]
+<GOTO>
+<GOTO>
+<GOTO>
+<HELP>
+<EXIT>
+[END_RES]
+
+[ROOMS]
+dungeon2
+east2
+east3
+[END_ROOMS]

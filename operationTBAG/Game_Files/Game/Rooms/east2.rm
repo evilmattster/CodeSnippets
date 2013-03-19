@@ -1,0 +1,37 @@
+[INTRO]
+
+   You run back up the stairs as fast as you can go.
+ You feel like something is chasing you!
+   
+   [PAUSE]
+   
+   In your haste, you tripped on the stairs, knocked
+ your head on the railing, and passed out.
+ 
+      YOU SURVIVED! (but barely)
+
+[END_INTRO]
+
+[MENU]
+<OPTION>
+Play again
+<END_OPT>
+<OPTION>
+Exit
+<END_OPT>
+[END_MENU]
+
+[COMMAND]
+<HELP, WHATDOIDO>
+<EXIT, CLOSE, QUIT>
+[END_CMD]
+
+[RESOLVE]
+<GOTO>
+<HELP>
+<EXIT>
+[END_RES]
+
+[ROOMS]
+Game
+[END_ROOMS]

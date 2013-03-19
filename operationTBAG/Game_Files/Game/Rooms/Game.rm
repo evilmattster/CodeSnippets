@@ -1,0 +1,32 @@
+[INTRO]
+   You wake up in a dark room on a hard wood floor.  You
+ have no idea where you are or how you got there.
+ 
+ Exits are to the north east and west.
+
+[END_INTRO]
+
+[COMMAND]
+<GoNorth,WalkNorth,HeadNorth,ExitNorth>
+<GoEast,WalkEast,HeadEast,ExitEast>
+<GoWest,WalkWest,HeadWest,ExitWest>
+<HELP, WHATDOIDO>
+<EXIT, CLOSE, QUIT>
+[END_CMD]
+
+[MENU]
+[END_MENU]
+
+[RESOLVE]
+<GOTO>
+<GOTO>
+<GOTO>
+<HELP>
+<EXIT>
+[END_RES]
+
+[ROOMS]
+north1
+east1
+west1
+[END_ROOMS]

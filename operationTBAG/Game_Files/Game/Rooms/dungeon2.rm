@@ -1,0 +1,33 @@
+[INTRO]
+   Travel endlessly downward for the rest of time, 
+ always hopeing the tunnel will end or something interesting
+ will happen.  But on the plus side you never get tired or
+ hungry... You start to wonder if this is all a dream.
+ 
+      CONGRATULATIONS, YOU WOKE UP!
+ 
+[END_INTRO]
+
+[MENU]
+<OPTION>
+Play again
+<END_OPT>
+<OPTION>
+Exit
+<END_OPT>
+[END_MENU]
+
+[COMMAND]
+<HELP, WHATDOIDO>
+<EXIT, CLOSE, QUIT>
+[END_CMD]
+
+[RESOLVE]
+<GOTO>
+<HELP>
+<EXIT>
+[END_RES]
+
+[ROOMS]
+Game
+[END_ROOMS

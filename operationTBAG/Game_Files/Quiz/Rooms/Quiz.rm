@@ -1,0 +1,46 @@
+[INTRO]
+
+   What language was this application programmed in?
+
+[END_INTRO]
+
+[MENU]
+<OPTION>
+HTML
+<END_OPT>
+<OPTION>
+Visual Basic
+<END_OPT>
+<OPTION>
+C++
+<END_OPT>
+<OPTION>
+Python
+<END_OPT>
+[END_MENU]
+
+[COMMAND]
+<>
+<>
+<>
+<>
+<HELP,HINT,CHEAT,TIP>
+<EXIT, CLOSE, QUIT>
+[END_CMD]
+
+[RESOLVE]
+<GOTO>
+<GOTO>
+<GOTO>
+<GOTO>
+<GOTO>
+<EXIT>
+[END_RES]
+
+[ROOMS]
+one_wrong
+one_wrong
+one_right
+one_wrong
+one_hint
+[END_ROOMS]

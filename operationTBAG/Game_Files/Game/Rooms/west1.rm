@@ -1,0 +1,28 @@
+[INTRO]
+   Though this looked like an exit from a distance,
+ it turned out only be a mirror.  You see that you are
+ unharmed, but are suprised to see that you are wearing
+ a medieval tunik!
+
+ The only exit is back.
+ 
+[END_INTRO]
+
+[COMMAND]
+<GoEast,GoBack,TurnAround,Leave,WalkAway>
+<HELP, WHATDOIDO>
+<EXIT, CLOSE, QUIT>
+[END_CMD]
+
+[MENU]
+[END_MENU]
+
+[RESOLVE]
+<GOTO>
+<HELP>
+<EXIT>
+[END_RES]
+
+[ROOMS]
+Game
+[END_ROOMS]
